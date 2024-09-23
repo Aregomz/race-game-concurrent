@@ -1,0 +1,41 @@
+.track-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #4caf50; /* Color del campo de fútbol */
+  background-image: linear-gradient(white 1px, transparent 1px),
+                    linear-gradient(90deg, white 1px, transparent 1px);
+  background-size: 50px 50px; /* Tamaño de las celdas */
+  overflow: hidden; /* Para evitar que se muestren elementos fuera del contenedor */
+}
+
+.track {
+  position: relative;
+  width: 100px; /* Ajusta según el ancho de la celda */
+  height: 50px; /* Ajusta según el alto que desees */
+  margin-bottom: 10px; /* Espaciado entre los coches */
+}
+
+.car {
+  width: 100%; /* Ajusta la imagen al 100% del ancho de la celda */
+  height: auto; /* Mantiene la proporción de la imagen */
+  max-height: 100%; /* Asegura que la imagen no sobrepase la altura de la celda */
+  object-fit: contain; /* Mantiene la proporción y ajusta la imagen dentro de la celda */
+  position: absolute; /* Asegúrate de que las imágenes estén en posición absoluta */
+  z-index: 10; /* Asegúrate de que tenga un z-index más alto que la línea de meta */
+}
+
+.finish-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 60px; /* Aumenta el ancho para hacerlo más grueso */
+  background-color: black; /* Cambia el color a negro */
+  left: 100px; /* Asegúrate de que esté bien posicionada */
+  color: white; /* Color del texto, si es necesario */
+  text-align: center;
+  font-weight: bold;
+  writing-mode: vertical-rl; /* Para que el texto esté en vertical */
+  z-index: 5; 
+}
+
