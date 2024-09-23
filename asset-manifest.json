@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/race-game-concurrent/static/css/main.c5f09bab.css",
+    "main.js": "/race-game-concurrent/static/js/main.0bfb87d5.js",
+    "static/js/809.af19b894.chunk.js": "/race-game-concurrent/static/js/809.af19b894.chunk.js",
+    "static/js/74.50211539.chunk.js": "/race-game-concurrent/static/js/74.50211539.chunk.js",
+    "static/js/453.a40d8889.chunk.js": "/race-game-concurrent/static/js/453.a40d8889.chunk.js",
+    "static/media/rodrygo.png": "/race-game-concurrent/static/media/rodrygo.a774e5f87991ca85b3e5.png",
+    "static/media/vini.png": "/race-game-concurrent/static/media/vini.8c27734f677965339900.png",
+    "static/media/mbappe.png": "/race-game-concurrent/static/media/mbappe.03908c432e376dcd5559.png",
+    "index.html": "/race-game-concurrent/index.html",
+    "main.c5f09bab.css.map": "/race-game-concurrent/static/css/main.c5f09bab.css.map",
+    "main.0bfb87d5.js.map": "/race-game-concurrent/static/js/main.0bfb87d5.js.map",
+    "809.af19b894.chunk.js.map": "/race-game-concurrent/static/js/809.af19b894.chunk.js.map",
+    "74.50211539.chunk.js.map": "/race-game-concurrent/static/js/74.50211539.chunk.js.map",
+    "453.a40d8889.chunk.js.map": "/race-game-concurrent/static/js/453.a40d8889.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5f09bab.css",
+    "static/js/main.0bfb87d5.js"
+  ]
+}

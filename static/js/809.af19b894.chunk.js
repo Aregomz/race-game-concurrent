@@ -1,0 +1,2 @@
+onmessage=a=>{const{cars:n,finishLine:s}=a.data;if(!n||!Array.isArray(n))throw new Error("Invalid data: cars must be an array");const r=n.map((a=>a.position)),e=setInterval((()=>{if(r.forEach(((a,n)=>{r[n]=Math.min(a+5*Math.random(),s)})),postMessage(r),r.some((a=>a>=s))){clearInterval(e);const a=r.findIndex((a=>a>=s));postMessage({winner:n[a].name})}}),100)};
+//# sourceMappingURL=809.af19b894.chunk.js.map
